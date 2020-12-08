@@ -1,6 +1,6 @@
 {
     "name": "primebrick-commons-core",
-    "version": "0.2.0",
+    "version": "0.3.0",
     "description": "PrimeBrick Commons Core",
     "main": "dist/index.js",
     "author": "Michael Sogos",
