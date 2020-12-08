@@ -1,9 +1,9 @@
 import { Entity, Column, OneToOne, ManyToMany, JoinTable } from 'typeorm';
 // import { Login } from './Login.entity';
-import { AudibleEntity, EntityModule } from 'primebrick-sdk';
+import { AudibleEntity, RegisterEntity } from 'primebrick-sdk';
 import { Role } from './Role.entity';
 
-@EntityModule('core')
+@RegisterEntity('core')
 @Entity()
 export class User extends AudibleEntity {
     @Column({ unique: true })
