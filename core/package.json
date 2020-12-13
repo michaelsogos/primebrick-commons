@@ -1,6 +1,6 @@
 {
     "name": "primebrick-commons-core",
-    "version": "0.4.0",
+    "version": "0.5.0",
     "description": "PrimeBrick Commons Core",
     "main": "dist/index.js",
     "author": "Michael Sogos",
@@ -17,7 +17,7 @@
         "update:sdk": "yarn add -E primebrick-sdk"
     },
     "dependencies": {
-        "primebrick-sdk": "0.134.0",
+        "primebrick-sdk": "0.135.0",
         "typeorm": "0.2.29"
     },
     "devDependencies": {
