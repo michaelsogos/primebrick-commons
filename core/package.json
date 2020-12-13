@@ -17,7 +17,7 @@
         "update:sdk": "yarn add -E primebrick-sdk"
     },
     "dependencies": {
-        "primebrick-sdk": "0.125.0",
+        "primebrick-sdk": "0.134.0",
         "typeorm": "0.2.29"
     },
     "devDependencies": {
