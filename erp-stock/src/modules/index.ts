@@ -1,2 +1,3 @@
 export { Warehouse } from './stock/Warehouse.entity'
-export { WarehouseType } from './stock/WarehouseType.entity'
+export { WarehouseMove } from './stock/WarehouseMove.entity'
+export { WarehouseMoveLine } from './stock/WarehouseMoveLine.entity'
