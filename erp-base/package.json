@@ -1,0 +1,35 @@
+{
+    "name": "primebrick-commons-core",
+    "version": "0.5.0",
+    "description": "PrimeBrick Commons Erp Base",
+    "main": "dist/index.js",
+    "author": "Michael Sogos",
+    "license": "MIT",
+    "engines": {
+        "node": ">=14.12.0"
+    },
+    "scripts": {
+        "prebuild": "rimraf dist",
+        "build": "tsc --build ./tsconfig.json",
+        "lint": "eslint \"{src,apps,libs,test}/**/*.ts\" --fix",
+        "migration:create": "typeorm migration:generate -n core-entities",
+        "migration:run": "typeorm migration:run",
+        "update:sdk": "yarn add -E primebrick-sdk"
+    },
+    "dependencies": {
+        "primebrick-sdk": "0.135.0",
+        "typeorm": "0.2.29"
+    },
+    "devDependencies": {
+        "@types/express": "4.17.7",
+        "@types/node": "14.14.10",
+        "@typescript-eslint/eslint-plugin": "4.7.0",
+        "@typescript-eslint/parser": "4.7.0",
+        "eslint": "7.13.0",
+        "eslint-config-prettier": "6.15.0",
+        "eslint-plugin-import": "2.22.1",
+        "prettier": "2.1.2",
+        "rimraf": "3.0.2",
+        "typescript": "4.0.5"
+    }
+}
