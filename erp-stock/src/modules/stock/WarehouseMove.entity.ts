@@ -9,10 +9,10 @@ enum WarehouseMoveType{
 }
 
 enum WarehouseMoveStatus {
-    Draft = 1,
-    Confirmed = 2,
-    Closed = 3,
-    Cancelled = 4
+    DRAFT = 1,
+    CONFIRMED = 2,
+    CLOSED = 3,
+    CANCELLED = 4
 }
 
 @RegisterEntity('erpstock')
