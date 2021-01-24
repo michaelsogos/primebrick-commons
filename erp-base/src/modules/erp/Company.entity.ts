@@ -23,5 +23,5 @@ export class Company extends AudibleEntity {
     businessUnits: BusinessUnit[];
 
     @OneToMany((type) => Warehouse, (T) => T.company)
-    warehouses: Warehouse[];
+    warehouses: Warehouse[];//TODO: WARNING, here we have the risk for circular dependency, if erp-stock import erp-base, is not ok to do the opposite
 }

@@ -19,7 +19,7 @@ export class Warehouse extends AudibleEntity {
     name: string;
 
     @ManyToOne((type) => WarehouseType)
-    @JoinColumn()
+    @JoinColumn()//TODO: @JoinColumn directive should exists once
     warehouseType: WarehouseType;
 
     @ManyToOne((type) => Company)
